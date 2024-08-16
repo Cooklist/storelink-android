@@ -9,8 +9,6 @@
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>storelink</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.facebook.react</groupId>
@@ -25,44 +23,30 @@
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-async-storage_async-storage</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-background-fetch</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-cookies_cookies</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-gesture-handler</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-safe-area-context</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-storelink</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.cooklist</groupId>
       <artifactId>react-native-webview</artifactId>
-      <version>1.0.0</version>
-      <type>aar</type>
     </dependency>
   </dependencies>
 </project>
