@@ -1,41 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>com.cooklist</groupId>
   <artifactId>storelink-sdk</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>storelink-sdk</name>
-  
-  <build>
-    <plugins>
-      <plugin>
-          <groupId>com.simpligility.maven.plugins</groupId>
-          <artifactId>android-maven-plugin</artifactId>
-          <version>4.0.0</version>
-
-          <extensions>true</extensions>      
-          <configuration>
-              <sign>
-                  <debug>false</debug>
-              </sign>
-              <arguments>-Dfile=react-native-async-storage_async-storage.aar</arguments>
-
-          </configuration>
-      </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-source-plugin</artifactId>
-          <version>2.2.1</version>
-          <configuration>
-            <skipSource>true</skipSource>
-          </configuration>
-        </plugin>
-    </plugins>
-  </build>
-
   <modules>
     <module>react-native-async-storage_async-storage</module>
     <module>react-native-background-fetch</module>
@@ -47,5 +17,4 @@
     <module>storelink</module>
     <module>tsbackgroundfetch</module>
   </modules>
-  
 </project>
