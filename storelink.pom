@@ -5,4 +5,16 @@
   <artifactId>storelink</artifactId>
   <version>1.0.0</version>
   <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-android</artifactId>
+      <version>0.72.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>hermes-android</artifactId>
+      <version>0.72.6</version>
+    </dependency>
+  </dependencies>
 </project>
