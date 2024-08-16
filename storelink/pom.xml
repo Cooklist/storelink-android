@@ -10,46 +10,81 @@
   <artifactId>storelink</artifactId>
   <version>1.0.0</version>
   <packaging>aar</packaging>
+
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>com.simpligility.maven.plugins</groupId>
+          <artifactId>android-maven-plugin</artifactId>
+          <version>4.0.0</version>
+
+          <extensions>true</extensions>         
+          <configuration>
+              <sign>
+                  <debug>false</debug>
+              </sign>
+          </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
   <dependencies>
     <dependency>
       <groupId>com.facebook.react</groupId>
       <artifactId>react-android</artifactId>
+      <version>0.72.6</version>
     </dependency>
     <dependency>
       <groupId>com.facebook.react</groupId>
       <artifactId>hermes-android</artifactId>
+      <version>0.72.6</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-async-storage_async-storage</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-cookies_cookies</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-background-fetch</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-gesture-handler</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-safe-area-context</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-storelink</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>react-native-webview</artifactId>
+      <type>pom</type>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.github.cooklist.storelink-sdk</groupId>
       <artifactId>tsbackgroundfetch</artifactId>
+      <type>pom</type>
       <version>1.0.2</version>
     </dependency>
   </dependencies>

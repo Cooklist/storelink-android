@@ -1,2 +1,2 @@
 install: 
-- FILE="-Dfile=react-native-cookies_cookies.aar" mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-cookies_cookies -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-cookies_cookies.pom
+- FILE="-Dfile=react-native-cookies_cookies.aar" mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-cookies_cookies -Dversion=1.0.0 -Dpackaging=aar -DpomFile=pom.xml
