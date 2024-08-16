@@ -1,3 +1,0 @@
-install: 
-  - FILE="-Dfile=react-native-async-storage_async-storage.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-async-storage_async-storage -Dversion=1.0.0 -Dpackaging=aar -DpomFile=pom.xml

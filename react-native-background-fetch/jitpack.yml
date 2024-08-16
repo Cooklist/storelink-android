@@ -1,3 +1,0 @@
-install: 
-  - FILE="-Dfile=react-native-background-fetch.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-background-fetch -Dversion=1.0.0 -Dpackaging=aar -DpomFile=pom.xml
