@@ -1,0 +1,2 @@
+install: 
+- FILE="-Dfile=react-native-storelink.aar" mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-storelink -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-storelink.pom
