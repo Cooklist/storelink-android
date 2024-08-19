@@ -1,19 +1,19 @@
 install: 
   - FILE="-Dfile=tsbackgroundfetch-1.0.2.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=tsbackgroundfetch -Dversion=1.0.2 -Dpackaging=aar -DpomFile=tsbackgroundfetch.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=tsbackgroundfetch -Dversion=1.0.2 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=storelink.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=storelink -Dversion=1.0.0 -Dpackaging=aar -DpomFile=storelink.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=storelink -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-webview.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-webview -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-webview.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-webview -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-storelink.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-storelink -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-storelink.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-storelink -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-safe-area-context.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-safe-area-context -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-safe-area-context.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-safe-area-context -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-gesture-handler.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-gesture-handler -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-gesture-handler.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-gesture-handler -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-cookies_cookies.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-cookies_cookies -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-cookies_cookies.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-cookies_cookies -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-background-fetch.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-background-fetch -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-background-fetch.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-background-fetch -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-async-storage_async-storage.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-async-storage_async-storage -Dversion=1.0.0 -Dpackaging=aar -DpomFile=react-native-async-storage_async-storage.pom
+  - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-async-storage_async-storage -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
