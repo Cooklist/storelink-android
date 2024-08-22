@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>io.jitpack</groupId>
+    <groupId>com.cooklist</groupId>
     <artifactId>storelink-root</artifactId>
   </parent>
-  <groupId>io.jitpack</groupId>
+  <groupId>com.cooklist</groupId>
   <artifactId>react-native-async-storage_async-storage</artifactId>
   <version>1.0.0</version>
 </project>
