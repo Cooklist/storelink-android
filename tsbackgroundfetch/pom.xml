@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.cooklist</groupId>
-    <artifactId>storelink-android</artifactId>
+    <groupId>io.jitpack</groupId>
+    <artifactId>storelink-root</artifactId>
   </parent>
-  <groupId>com.cooklist</groupId>
+  <groupId>io.jitpack</groupId>
   <artifactId>tsbackgroundfetch</artifactId>
   <version>1.0.2</version>
 </project>

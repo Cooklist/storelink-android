@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.cooklist</groupId>
+  <groupId>io.jitpack</groupId>
   <artifactId>storelink-sdk</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
-      <groupId>com.cooklist</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>storelink</artifactId>
       <version>1.0.0</version>
       <packaging>aar</packaging>
@@ -23,37 +23,37 @@
       <version>0.72.6</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-async-storage_async-storage</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-background-fetch</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-cookies_cookies</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-gesture-handler</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-safe-area-context</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-storelink</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.Cooklist.storelink-android</groupId>
+      <groupId>io.jitpack</groupId>
       <artifactId>react-native-webview</artifactId>
       <version>1.0.0</version>
     </dependency>
