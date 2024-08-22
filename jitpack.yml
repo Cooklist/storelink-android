@@ -17,3 +17,5 @@ install:
   - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-background-fetch -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=react-native-async-storage_async-storage.aar" 
   - mvn install:install-file $FILE -DgroupId=com.cooklist -DartifactId=react-native-async-storage_async-storage -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
+  - mvn -DgroupId=com.cooklist -DartifactId=storelink-sdk -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
+  - ls

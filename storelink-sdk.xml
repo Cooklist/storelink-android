@@ -10,6 +10,7 @@
       <groupId>com.github.Cooklist.storelink-android</groupId>
       <artifactId>storelink</artifactId>
       <version>1.0.0</version>
+      <packaging>aar</packaging>
     </dependency>
     <dependency>
       <groupId>com.facebook.react</groupId>
