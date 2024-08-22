@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>com.cooklist</groupId>
-  <artifactId>storelink-root</artifactId>
+  <artifactId>storelink-android</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
-  <name>storelink-root</name>
+  <name>storelink-android</name>
   
   <modules>
     <module>react-native-async-storage_async-storage</module>

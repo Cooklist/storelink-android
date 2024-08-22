@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.cooklist</groupId>
-    <artifactId>storelink-root</artifactId>
+    <artifactId>storelink-android</artifactId>
     <version>1.0.0</version>
   </parent>
   <groupId>com.cooklist</groupId>
