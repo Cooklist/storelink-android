@@ -9,7 +9,6 @@
   <groupId>com.cooklist</groupId>
   <artifactId>storelink</artifactId>
   <version>1.0.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.facebook.react</groupId>

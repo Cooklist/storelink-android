@@ -10,5 +10,4 @@
   <groupId>com.cooklist</groupId>
   <artifactId>react-native-cookies_cookies</artifactId>
   <version>1.0.0</version>
-  <packaging>aar</packaging>
 </project>
