@@ -5,6 +5,7 @@
   <parent>
     <groupId>com.cooklist</groupId>
     <artifactId>storelink-root</artifactId>
+    <version>1.0.0</version>
   </parent>
   <groupId>com.cooklist</groupId>
   <artifactId>react-native-gesture-handler</artifactId>
