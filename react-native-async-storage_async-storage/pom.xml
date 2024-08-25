@@ -5,9 +5,9 @@
   <parent>
     <groupId>com.cooklist</groupId>
     <artifactId>storelink-root</artifactId>
-    <version>1.0.0</version>
+    <version>TEST-3</version>
   </parent>
   <groupId>com.cooklist</groupId>
   <artifactId>react-native-async-storage_async-storage</artifactId>
-  <version>1.0.0</version>
+  <version>TEST-3</version>
 </project>

@@ -6,7 +6,7 @@
   <artifactId>storelink-root</artifactId>
   <packaging>pom</packaging>
   <name>storelink-root</name>
-  <version>1.0.0</version>
+  <version>TEST-3</version>
   
   <modules>
     <module>react-native-async-storage_async-storage</module>
