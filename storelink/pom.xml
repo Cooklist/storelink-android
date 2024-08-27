@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.github.Cooklist.storelink-android</groupId>
     <artifactId>storelink-root</artifactId>
-    <version>TEST-3</version>
+    <version>develop-SNAPSHOT</version>
   </parent>
   <groupId>com.github.Cooklist.storelink-android</groupId>
   <artifactId>storelink</artifactId>
-  <version>TEST-3</version>
+  <version>develop-SNAPSHOT</version>
   <dependencies>
     <dependency>
       <groupId>com.facebook.react</groupId>
