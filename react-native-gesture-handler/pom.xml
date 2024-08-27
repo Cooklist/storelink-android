@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.cooklist</groupId>
+    <groupId>com.github.Cooklist.storelink-android</groupId>
     <artifactId>storelink-root</artifactId>
     <version>TEST-3</version>
   </parent>
-  <groupId>com.cooklist</groupId>
+  <groupId>com.github.Cooklist.storelink-android</groupId>
   <artifactId>react-native-gesture-handler</artifactId>
   <version>TEST-3</version>
 </project>
